@@ -1,2 +1,21 @@
-%h1 Voila! This is the Holder
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your lif's work. organize, always.
+    %button= link_to "Enter", new_user_registration_path
 
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p By creating an account with our store, you will
+        be able to move through the checkout process faster,
+        store multiple shipping addresses, view and track
+        your orders in your account and more.
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
